@@ -136,6 +136,8 @@
     margin-left: 40px;
 }
 
+
+
 .imagens_destaques {
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
@@ -211,6 +213,28 @@
     z-index: 8;
 }
 
+.titulo_cores{
+    text-align: start;
+    font-size: 30px;
+    margin-top: 10rem;
+    margin-left: 40px;
+}
+
+.cores_iphone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.img_cor img{
+    height: 550px;
+    margin-top: 50px;
+}
+
+.img_cor p{
+    text-align: center;
+}
 
 
 .especificacoes{
