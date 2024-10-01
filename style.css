@@ -224,29 +224,31 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-bottom: 5px;
 }
-
-.img_cor img{
-    height: 550px;
-    margin-top: 50px;
-}
-
-.img_cor p{
-    text-align: center;
+.img_cor{
+    height: 700px;
+    width: 100%;
+    margin: 5rem auto;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    animation: cores_transicao 20s infinite alternate;
 }
 
 
 .especificacoes{
     display: flex;
     margin: 3rem;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
 
 .info_box{
-    height: 800px;
-    width: 600px;
+    height: 200px;
+    width: 500px;
     margin: 1rem;
     background-color: rgb(219, 219, 219);
     border-radius: 10px;
@@ -262,4 +264,33 @@ footer{
     width: 100%;
     height: 15rem;
     margin-top: 5rem;
+}
+
+@keyframes cores_transicao{
+    0%{
+        background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/Iphone_ultramarino.jpg?raw=true');
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+    25%{
+        background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/Iphone_verdeacinzentado.jpg?raw=true');
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+    50%{
+        background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/Iphone_rosa.jpg?raw=true');
+        background-repeat: no-repeat;
+        background-position: 50%;
+
+    }
+    75%{
+        background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/Iphone_branco.jpg?raw=true');
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+    100%{
+        background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/Iphone_preto.jpg?raw=true');
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
 }
