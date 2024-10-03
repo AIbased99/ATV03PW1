@@ -237,6 +237,14 @@
     animation: cores_transicao 20s infinite alternate;
 }
 
+.linha_quebra{
+
+    width: 98%;
+    margin: 5rem 15px;
+    background-color: rgb(192, 192, 192);
+    height: 1.5px;
+    border-radius: 50px;
+}
 
 .especificacoes{
     display: flex;
@@ -246,16 +254,100 @@
     justify-content: center;
 }
 
+
 .info_box{
-    height: 200px;
+    display: flex;
+    height: 300px;
     width: 500px;
     margin: 1rem;
     background-color: rgb(219, 219, 219);
     border-radius: 10px;
 }
 
-.info_box h3{
+.info_box_texto{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 225px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+
+
+.info_box_texto h3{
+    font-size: 35px;
+}
+
+.info_box_texto h4{
+    margin-top: 10px;
+}
+
+#chip_texto{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+#tela_texto{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+#bateria_texto{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+#armazenamento_texto{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.info_box_texto h3{
     color: black;
+    margin-top: 25px;
+}
+
+.info_box p{
+    margin-top: 15px;
+}
+
+.icone_info{
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80%;
+    width: 30%;
+    margin: 20px;
+}
+
+#chip_icon{
+    background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/ChipA18.png?raw=true');
+}
+
+#bateria_icon{
+    background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/bateria.png?raw=true');
+
+}
+
+#tela_icon{
+    background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/smartphone.png?raw=true');
+}
+
+#armazenamento_icon{
+    background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/armazenamento-de-arquivo.png?raw=true');
 }
 
 footer{
