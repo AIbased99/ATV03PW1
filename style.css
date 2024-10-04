@@ -132,7 +132,7 @@
 }
 
 .comece-destaques{
-    font-size: 40px;
+    font-size: 45px;
     margin-left: 40px;
 }
 
@@ -215,7 +215,7 @@
 
 .titulo_cores{
     text-align: start;
-    font-size: 30px;
+    font-size: 45px;
     margin-top: 10rem;
     margin-left: 40px;
 }
@@ -246,9 +246,14 @@
     border-radius: 50px;
 }
 
+.espec-preco{
+    text-align: center;
+    font-size: 40px;
+}
+
 .especificacoes{
     display: flex;
-    margin: 3rem;
+    margin: 3rem 12rem 12rem 12rem;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -352,10 +357,30 @@
 
 footer{
     display: flex;
+    justify-content: space-evenly;
     background-color: rgb(192, 192, 192, 0.2);
     width: 100%;
     height: 15rem;
     margin-top: 5rem;
+}
+
+.contato, .End_Corporativo{
+    margin: 1.5rem 15px;
+}
+
+.contato li{
+    margin: 20px 0 0 -20px;
+}
+
+.redes_serv_flex{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#linha_footer{
+    margin: 10px;
 }
 
 @keyframes cores_transicao{
