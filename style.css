@@ -40,6 +40,11 @@
         text-wrap: nowrap;
     }
 
+    .barra_pequena{
+        display: none;
+    }
+
+
     .apresentacao{
         background-image: linear-gradient(to bottom, #1c2464, white);
         display: flex;
@@ -49,6 +54,7 @@
     #img_intro{
         width: 100%;
         margin-top: -20%;
+        
     }
 
     
@@ -92,6 +98,7 @@
     align-items: center;
     margin-top: 8rem;
     margin-bottom: 10rem;
+    position: relative;
 }
 
 .barra_scroll h3{
@@ -112,6 +119,7 @@
     text-decoration: none;
     color: gray;
 }
+
 
 .but_verprecos{
     align-self: center;
@@ -338,6 +346,12 @@
     margin: 20px;
 }
 
+@media screen and(max-width: 845px){
+    .icone_info{
+        overflow: hidden;
+    }
+}
+
 #chip_icon{
     background-image: url('https://github.com/AIbased99/ATV03PW1/blob/main/ChipA18.png?raw=true');
 }
@@ -381,6 +395,41 @@ footer{
 
 #linha_footer{
     margin: 10px;
+}
+
+    @media screen and (max-width: 1140px){
+        .barra_inicial{ display: none; }
+        .barra_pequena{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+
+
+        }
+        .barra_pequena h3{
+            color: rgb(255, 255, 255);
+            align-self: center;
+
+            margin-left: 30px;
+
+            font-size: 40px;
+        }
+
+        .apresentacao{
+            height: fit-content;
+        }
+        .but_precosap button{
+            margin-top: -70px;
+        }
+        .link_scroll{
+        display: none;
+        color: rgb(0, 0, 0, 0.0);
+        }
+
+        .info_box{
+            width: 700px;
+}
 }
 
 @keyframes cores_transicao{
